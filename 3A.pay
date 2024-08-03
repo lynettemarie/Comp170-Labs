@@ -1,0 +1,13 @@
+public double pay (double salary, double hours) {
+    if (hours > 8) {
+        double k = hours - 8;
+        double j = (k * (salary * 1.5)) + (salary * (hours - k));
+        return j;
+    }
+    
+    else {
+    double l = salary * hours;
+    return l;
+    }
+}
+        
