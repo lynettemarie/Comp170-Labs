@@ -1,0 +1,15 @@
+public static void printRange(int x, int y) {
+        if (x > y) {
+            for (int i = x; i <= y; i++) {
+                System.out.print(i + " ");
+            }
+      if (y < x)
+            for (int i = y; i >= x; i--) {
+                System.out.print(i + " ");
+            }
+            
+            else
+                System.out.print("x");
+        }
+}
+            
