@@ -1,0 +1,17 @@
+public class ComputePay {
+    public static void main(String[] args) {
+        // Calculate pay at work based on hours worked each day
+        int hours = 4 + 5 + 8 + 4;
+        double salary = 8.75;
+        double pay = hours * salary;
+        double taxes = pay * 0.2;
+        System.out.println("My total hours worked: ");
+        System.out.println(hours);
+        System.out.println("My hourly salary: ");
+        System.out.println("$" + salary);
+        System.out.println("My total pay: ");
+        System.out.println(pay);
+        System.out.println("My taxes owed: "); // 20% tax
+        System.out.println(taxes);
+    }
+}
