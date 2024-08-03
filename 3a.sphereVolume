@@ -1,0 +1,5 @@
+public double sphereVolume (double x) {
+    double volume = (4 *  (Math.PI) * (Math.pow(x, 3)) / 3);
+    return volume;
+}
+
