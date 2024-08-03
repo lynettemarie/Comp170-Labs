@@ -1,0 +1,56 @@
+public class Shining {
+    public static void main(String[] args) {
+        jack4();
+        
+    }
+    
+    public static void jack() {
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+        System.out.println("All work and no play makes Jack a dull boy.");
+    }
+    public static void jack2() {
+        jack();
+        jack();
+        jack();
+        jack();
+        jack();
+        
+    }
+    public static void jack3() {
+        jack2();
+        jack2();
+          
+    }
+    
+    public static void jack4() {
+        jack3();
+        jack3();
+        jack3();
+        jack3();
+        jack3();
+        jack3();
+        jack3();
+        jack3();
+        jack3();
+        jack3();
+          
+    }
+        
+
+}
+
+
+
+
+
+
+
+
