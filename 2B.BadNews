@@ -1,0 +1,34 @@
+public class BadNews {
+    public static final int MAX_ODD = 23;
+    int count;
+    
+    public static void writeOdds() {
+        // print each odd number
+        for (int count = 1; count <= (MAX_ODD - 2); count++) {
+            System.out.print(count + " ");
+            count = count + 1;
+        }
+       
+    }
+        
+    public static void writeEleven() {
+        int MAX_LESS = 13;
+        for (int count = 1; count<= (MAX_LESS - 2); count ++) {
+            System.out.print(count + " ");
+            count = count + 1;
+        }
+        // print the last odd number
+    
+    }
+
+    public static void main(String[] args) {
+        // write all odds up to 21
+        writeOdds();
+        System.out.println();
+        writeEleven();
+
+        // now, write all odds up to 11
+  
+       
+    }
+}
