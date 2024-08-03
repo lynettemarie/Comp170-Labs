@@ -1,0 +1,22 @@
+    public static void main(String[] args) {
+        int y = 5;
+        printStrings("abc", y);
+            
+    }
+    
+    public static void printStrings(String abc, int y) { 
+        for (int i = 1; i <= y; i++) {
+            System.out.print(abc);
+        }
+       
+}
+
+
+
+
+
+
+
+
+
+
