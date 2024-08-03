@@ -1,0 +1,6 @@
+public int largestAbsVal (int x, int y, int z) {
+    int j = Math.max( Math.abs(x), Math.abs (y));
+    return Math.max( Math.abs (z), j);
+   
+}
+    
