@@ -1,0 +1,41 @@
+public class StarFigures {
+    public static void main(String[] args) {
+        starline();
+        System.out.println();
+        starline();
+        line();
+        System.out.println();
+        System.out.println("  *  ");
+        System.out.println("  *  ");
+        System.out.println("  *  ");
+        starline();
+    }
+        
+       
+        
+        
+        public static void star() {
+        System.out.println(" * * ");
+        System.out.println("  *  ");
+        System.out.println(" * * ");
+        }
+        
+        public static void line() {
+        System.out.println("*****");
+        System.out.println("*****");
+        }
+        
+        public static void starline(){
+        line();
+        star();
+    }
+}
+        
+
+
+
+
+
+
+
+
