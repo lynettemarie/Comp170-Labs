@@ -1,0 +1,38 @@
+public class Lanterns {
+    public static void main (String[] args) {
+        roof();
+        System.out.println();
+        roof();
+        lines();
+        System.out.println("*************");
+        roof();
+        System.out.println();
+        roof();
+        fivestar();
+        lines();
+        lines();
+        fivestar();
+        fivestar();
+    }
+    
+    public static void roof(){
+        System.out.println("    *****    ");
+        System.out.println("  *********  ");
+        System.out.println("*************");
+    }
+    
+    public static void lines() {
+        System.out.println("* | | | | | *");
+    }
+    
+    public static void fivestar() {
+        System.out.println("    *****    ");
+    }
+}
+
+
+
+
+
+
+
