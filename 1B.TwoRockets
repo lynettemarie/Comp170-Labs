@@ -1,0 +1,23 @@
+public class TwoRockets{
+    public static void main(String[] args) {
+        arrows();
+        box();
+        System.out.println("|United| |United|");
+        System.out.println("|States| |States|");
+        box();
+        arrows();
+    }
+
+public static void box(){
+        System.out.println("+------+ +------+");
+        System.out.println("|      | |      |");
+        System.out.println("|      | |      |");
+        System.out.println("+------+ +------+");
+}
+public static void arrows(){
+        System.out.println("   /\\       /\\");
+        System.out.println("  /  \\     /  \\");
+        System.out.println(" /    \\   /    \\");
+}
+}
+
