@@ -1,0 +1,12 @@
+public double area (double x) {
+    double area = ((Math.pow(x, 2)) * Math.PI);
+    return area;
+}
+
+
+
+
+
+
+
+
